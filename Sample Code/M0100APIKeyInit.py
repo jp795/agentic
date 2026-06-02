@@ -21,4 +21,3 @@ class APIKeyInitializer:
         print(f"OPENAI_API_KEY: {openai_api_key}")
         os.environ['OPENAI_API_KEY'] = openai_api_key
         print(f"API key has been set in the environment variable: {os_var_name}")
-
